@@ -5,7 +5,6 @@ import Card from "./Card"
 const Facebook = () => {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false)
-    const [userID, setUserID] = useState("")
     const [name, setName] = useState("")
     const [email, setEmail] = useState("")
     const [picture, setPicture] = useState("")
@@ -13,7 +12,6 @@ const Facebook = () => {
 
     const responseFacebook = (response) => {
         console.log(response)
-        setUserID(response.userID)
         setIsLoggedIn(true)
         setName(response.name)
         setEmail(response.email)
