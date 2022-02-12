@@ -8,7 +8,10 @@ const Card = ({picture, name, email}) => {
                 <div className="col-md-6 mt-5 box-effect">
 
                     <div className="card">
+                          
+                        <div className="img_div"> 
                           <img src={picture} className="card-img-top mx-auto my-3" alt={name} />
+                        </div>
                         
                         <div className="card-body">
                         
