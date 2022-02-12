@@ -8,7 +8,7 @@ const Card = ({picture, name, email}) => {
                 <div className="col-md-6 mt-5 box-effect">
 
                     <div className="card">
-                          <img src={picture} style={{width: `${picture.data.height} px`, height: `${picture.data.width} px`}} className="card-img-top mx-auto my-3" alt={name} />
+                          <img src={picture} className="card-img-top mx-auto my-3" alt={name} />
                         
                         <div className="card-body">
                         
