@@ -26,7 +26,7 @@ const Facebook = () => {
             <Card 
                 name={name}
                 email={email}
-                pictur={picture}
+                picture={picture}
             />
         )
     } else {
