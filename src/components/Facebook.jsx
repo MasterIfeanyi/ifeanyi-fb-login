@@ -49,11 +49,9 @@ const Facebook = () => {
 
 
   return (
-    <>
-        <section>
+        <section className="section">
             {fbContent} 
         </section>
-    </>
   )
 }
 
