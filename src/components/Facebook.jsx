@@ -32,17 +32,23 @@ const Facebook = () => {
     } else {
         fbContent = (
 
-            <div className="login" style={{
-                padding: "10px 20px",
-                margin: "10px 20px"
-            }}>
-                <FacebookLogin
-                appId="1343316909464529"
-                autoLoad={true}
-                fields="name,email,picture"
-                scope="public_profile,user_friends"
-                callback={responseFacebook}
-                icon="fa-facebook" />
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 d-flex justify-content-center">
+                        <div className="login" style={{
+                            padding: "10px 20px",
+                            margin: "10px 20px"
+                        }}>
+                            <FacebookLogin
+                                appId="1343316909464529"
+                                autoLoad={true}
+                                fields="name,email,picture"
+                                scope="public_profile,user_friends"
+                                callback={responseFacebook}
+                                icon="fa-facebook" />
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
