@@ -6,10 +6,12 @@ const Footer = () => {
 
 
     return (
-        <footer>
+        <footer className='py-2'>
             <div className="container">
                 <div className="row">
-                    <p>Chima Ifeanyi &copy; {today.getFullYear()}</p>
+                    <div className="col">
+                        <p>Chima Ifeanyi &copy; {today.getFullYear()}</p>
+                    </div>
                 </div>
             </div>
         </footer>
